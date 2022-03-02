@@ -1,430 +1,457 @@
 <!doctype html>
 <html>
+
 <head>
-<style>
-html {
-    min-width: 720px;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    margin-left: 3em;
-    margin-right: 1em;
-   <!- width: 720px;->
-    background-color: #F5F5F5;
-}
-h1 {
-    font-size: 2em;
-    font-weight: 300;
-    letter-spacing: -1px;
-    text-rendering: optimizeLegibility;
-}
-h2 {
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 1em 0em 0.1em 0.1em;
-    text-rendering: optimizeLegibility;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            margin-left: 3em;
+            margin-right: 1em;
+        }
 
-p {
-    font-family: "Georgia", serif;
-    margin-left: 32px;
-}
+        h1 {
+            font-size: 2em;
+            font-weight: 300;
+            letter-spacing: -1px;
+            text-rendering: optimizeLegibility;
+        }
 
-ul {
-    font-family: "Georgia", serif;
-    list-style: none;
-}
-</style>
-<script type="text/javascript">
+        h2 {
+            font-size: 1.5em;
+            font-weight: 300;
+            margin: 1em 0em 0.1em 0.1em;
+            text-rendering: optimizeLegibility;
+        }
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34948720-1']);
-  _gaq.push(['_trackPageview']);
+        p {
+            font-family: "Georgia", serif;
+            margin-left: 32px;
+        }
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        ul {
+            font-family: "Georgia", serif;
+            list-style: none;
+        }
 
-</script>
-<title>Rupert Freeman's Home Page</title>
+        li {
+            margin-bottom: 1em;
+        }
+
+        #header {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin-bottom: 1em;
+        }
+
+        #header div {
+            min-width: 50%;
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                margin-top: 1em;
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+            }
+
+            p {
+                margin-left: 1em;
+            }
+
+            ul {
+                padding-left: 1.5em;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-34948720-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <title>Rupert Freeman's Home Page</title>
 </head>
 
 <body>
-<div style="height: 14em;">
-<div style="float: left;">
-<h1>Rupert Freeman</h1>
+    <div id="header">
+        <div>
+            <h1>Rupert Freeman</h1>
+            <p>
+                <script>
+                    // hopefully this fools the email harvesters 
+                    var a = 'Fre' + 'eman' + 'R@dard' + 'en.virg' + 'inia.edu';
+                    var t = '<a h' + 'ref=' + '"mai' + 'lto:' + a + '">' + a + '</a>';
+                    document.write(t);
+                </script>
+                <br>
+                Darden School of Business
+                <br>
+                100 Darden Blvd
+                <br>
+                Charlottesville, VA 22903
+                <br>
+                <br>
+            </p>
+        </div>
+        <img src="Rupert.jpg" style="height: 13em; width: 13.6em;">
+        <!-- <div style="position:absolute; TOP:20px; LEFT:700px;"><img src="Rupert.jpg" style="height: 13em; width: 13.6em;"></div> -->
+    </div>
+
+    <hr>
+    
+    <h2>About Me</h2>
     <p>
-<script>
-    // hopefully this fools the email harvesters 
-    var a = 'Fre'+'eman'+'R@dard'+'en.virg'+'inia.edu';
-    var t = '<a h'+'ref='+'"mai'+'lto:'+a+'">'+a+'</a>';
-    document.write(t);
-</script>
-<br>
-Darden School of Business
-<br>
-100 Darden Blvd 
-<br>
-Charlottesville, VA 22903
-<br>
-<br>
-</p>
-</div>
-
-<div style="position:absolute; TOP:20px; LEFT:700px;"><img src="Rupert.jpg" style="height: 13em; width: 13.6em;"></div>
-</div>
-<hr>
-<h2>About Me</h2>
-<p>
-I am an Assistant Professor in the Darden School of Business at the University of Virginia. Prior to this, I was a postdoc at Microsoft Research New York City, a computer science PhD student
-at Duke University advised by
-<a href="http://www.cs.duke.edu/~conitzer/">Vince Conitzer</a>, and an undergraduate at the University of Auckland, New Zealand <!(read my undergraduate dissertation
-<a href="http://www.cs.duke.edu/~rupert/honours_dissertation.pdf" here</a)>
-.
-</p>
-
-<p>
-I am interested in various topics at the intersection of computer science and economics including computational social choice, fair division, resource allocation, and prediction mechanisms.
-</p>
-
-<p>
-My 
-<a href="cv.pdf"> CV</a> .
-</p>
-
-<p>
-Note: <a href="https://www.cs.toronto.edu/~nisarg/"> Nisarg</a> and I gave
-a tutorial on fair division at EC 2019, AAAI 2020 and AAMAS 2020. The most current version of the slides can be found <a href="Tutorial-Slides.pdf">here</a>.
-</p>
-
-<h2>Publications</h2>
-
-<p>
-<b>2021</b>
-</p>
-
-<ul>
-	
-	<p>
-
-	<li>
-	<a href="Matching-Fair-Division.pdf">Two-Sided Matching Meets Fair Division.</a> Rupert Freeman, Evi Micha, and Nisarg Shah. In <i>Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)</i>, virtual, 2021. <a href="Matching-Fair-Division-Full.pdf">Full version.</a> 
-	</li> 
-	
-	<p>
-
-	<li>
-	<a href="isipta-2021.pdf">Towards a Theory of Confidence in Market-Based Predictions.</a> Rupert Freeman, David M. Pennock, Daniel M. Reeves, David Rothschild, and Bo Waggoner. In <i>Proceedings of the Twelth International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA-21)</i>, Granada, Spain.
-	</li>
-
-<p>
-
-<li>
-<a href="budget-aggregation-journal.pdf">Truthful Aggregation of Budget
-    Proposals.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and Jennifer Wortman
-Vaughan. In <i>Journal of Economic Theory</i>, Vol 193, 2021. (Supercedes the <a href="budget-aggregation-cr.pdf">EC-19 version</a> below.)
-</li>
-
-</ul>
-
-
-<p>
-<b>2020</b>
-</p>
-
-<ul>
-
-<p>
-
-<li>
-<a href="https://arxiv.org/abs/2002.08837">No-Regret and Incentive-Compatible
-    Online Learning</a>. Rupert Freeman, David M. Pennock, Chara Podimata, and Jennifer Wortman
-Vaughan. In <i>Proceedings of the Thirty-Seventh International
-    Conference on Machine Learning (ICML-20)</i>.
-</li>
-
-<p>
-
-<li>
-<a href="EC20-Fair-Div-CR.pdf">Best of Both Worlds: Ex-Ante and Ex-Post Fairness in Resource
-Allocation.</a> Rupert Freeman, Nisarg Shah, and
-Rohit Vaish. In <i>Proceedings of the Twenty-First ACM Conference
-  on Economics and Computation
-  (EC-20)</i>. <a href="https://arxiv.org/abs/2005.14122">Full version.</a> 
-</li>
-
-<p>
-
-<li>
-<a href="vnw-ijcai.pdf">Proportionality in Approval-Based Elections With a
-  Variable Number of Winners.</a> Rupert Freeman, Anson Kahng, and David
-  M. Pennock. In <i>Proceedings of the Twenty-Ninth International
-  Joint Conference on Artificial Intelligence (IJCAI-20)</i>, Yokohama,
-  Japan, 2020. <a href="vnw-full.pdf">Full version.</a> 
-</li>
-
-<p>
-
-<li>
-<a href="Chores.pdf">Equitable Allocations of Indivisible Chores.</a> Rupert Freeman, Sujoy Sikdar,
-Rohit Vaish, and Lirong Xia. In <i>Proceedings of the Nineteenth
-    International Joint Conference on Autonomous Agents and Multi Agent
-    Systems (AAMAS-20)</i>, Auckland, New Zealand,
-2020. <a href="https://arxiv.org/abs/2002.11504">Full version.</a>
-</li>
-
-<p>
-
-<li>
-<a href="group-proper-aaai.pdf">Preventing Arbitrage
-    from Collusion when Eliciting Probabilities.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and Bo
-Waggoner. In <i>Proceedings of the Thirty-Fourth AAAI Conference
-    on Artificial Intelligence (AAAI-20)</i>, New York, NY,
-2020. <a href="group-proper-working-paper.pdf">Full version.</a>
-</li>
-
-</ul>
-
-  <p>
-<b>2019</b>
-</p>
-
-<ul>
-
-<p>
-
-    <li>
-    <a href="ownershipFED18.pdf">Algorithmically Driven Shared
-    Ownership Economies.</a>
-    Vincent Conitzer and Rupert
-    Freeman. Appears as a chapter in <i>Future of Economic Design</i>,
-    Springer, 2019.
-    </li>
-
-<p>
-
-<li>
-<a href="EQ_IJCAI_Camera-ready.pdf">Equitable Allocations of Indivisible
-    Goods.</a> Rupert Freeman, Sujoy Sikdar, Rohit Vaish, and Lirong Xia. In <i>Proceedings of
-    the Twenty-Eighth International Joint Conference on Artificial Intelligence
-    (IJCAI-19)</i>, Macao, China,
-2019. <a href=https://arxiv.org/abs/1905.10656>Full version.</a>
-</li>
-
-<p>
-
-<li>
-<a href="budget-aggregation-cr.pdf">Truthful Aggregation of Budget
-    Proposals.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and Jennifer Wortman
-Vaughan. In <i>Proceedings of
-    the Twentieth ACM Conference on Economics and Computation (EC-19)</i>,
-Pheonix, AZ,
-2019. (Superceded by the <a href="budget-aggregation-journal.pdf">JET version</a> above.)
-<!--<a href=https://arxiv.org/abs/1905.00457>Full version.</a>-->
-</li>
-
-
-<p>
-
-<li>
-<a href="group-fairness-aaai.pdf">Group Fairness for the
-    Allocation of Indivisible Goods.</a> Vincent Conitzer, Rupert Freeman, Nisarg Shah, and Jennifer Wortman
-Vaughan. In <i>Proceedings of
-    the Thirty-Third AAAI Conference on Artificial Intelligence
-    (AAAI-19)</i>, Honolulu, HI,
-2019. <a href="group-fairness-full.pdf">Full version.</a>
-</li>
-
-<p>
-
-<li>
-<a href="wagering-fair-division-aaai.pdf">An Equivalence
-    Between Wagering and Fair-Division Mechanisms.</a> Rupert Freeman, David M. Pennock, and Jennifer Wortman Vaughan. In <i>Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence                   
-    (AAAI-19)</i>, Honolulu, HI,
-    2019. <a href="wagering-fair-division-full.pdf">Full version.</a>
-</li>
-
-</ul>
-
-
-  <p>
-<b>2018</b>
-</p>
-
-<ul>
-
-<p>
-
-    <li>
-   <a href="pcm-ijcai18.pdf">An
-    Axiomatic View of the Parimutuel Consensus Mechanism.</a> Rupert Freeman and David M. Pennock. In <i>Proceedings of the Twenty-Seventh
-    International Joint Conference on Artificial Intelligence
-    (IJCAI-18)</i>, Stockholm, Sweden, 2018. <a href="pcm-full.pdf">Full version.</a>
-    </li>
-
-    <p>
-
-    <li>
-    <a href="sigmetrics.pdf">Dynamic Proportional Sharing: A Game-Theoretic
-    Approach.</a> Rupert Freeman*, Seyed Majid Zahedi*, Vincent
-    Conitzer, and Benjamin Lee (* Co-first authors). In <i>Proceedings of the ACM SIGMETRICS
-    International Conference on Measurement and Modeling of Computer Systems</i>, Irvine, CA,
-    2018.
-    </li>
-<p>
-
-<li>
-<a href="forecaster-selection.pdf">Incentive-Compatible
-    Forecasting Competitions.</a> Jens Witkowski, Rupert Freeman, Jennifer Wortman Vaughan, David M. Pennock,
-and Andreas Krause. In <i>Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence                   
-    (AAAI-18)</i>, New Orleans, LA, 2018.
-
-</li>
-
-</ul>
-
-    <p>
-    <b>2017</b>
+        I am an Assistant Professor in the Darden School of Business at the University of Virginia. Prior to this, I was
+        a postdoc at Microsoft Research New York City, a computer science PhD student
+        at Duke University advised by
+        <a href="http://www.cs.duke.edu/~conitzer/">Vince Conitzer</a>, and an undergraduate at the University of
+        Auckland, New Zealand. <!--(read my undergraduate dissertation <a
+            href="http://www.cs.duke.edu/~rupert/honours_dissertation.pdf" here</a>)-->
     </p>
-    
-    <ul>
-    
-    <p>
-	
-    <li>
-   <a href="fair_social_choice.pdf">Fair and Efficient Social Choice in
-    Dynamic Settings.</a> Rupert Freeman, Seyed Majid Zahedi, and Vincent
-    Conitzer. In <i>Proceedings of the Twenty-Sixth
-    International Joint Conference on Artificial Intelligence
-    (IJCAI-17)</i>, Melbourne, Australia, 2017. <a href="fair_social_choice_full.pdf">Full version.</a>
-    </li>
-    
-    <p>
 
-    <li>
-   <a href="fair_public_decisions_EC17.pdf">Fair Public Decision
-    Making.</a> Vincent Conitzer, Rupert Freeman, and Nisarg
-    Shah. In <i>Proceedings of the 18th ACM Conference on
-    Economics and Computation (EC-17)</i>, Cambridge, MA, USA,
-    2017. <a href="fair_public_decisions.pdf">Full version.</a>
-    </li>
-    
     <p>
-    
-    <li>
-  <a href="double-clinching-auction-ec17.pdf">The Double
-    Clinching Auction for Wagering.</a>  Rupert Freeman, David M. Pennock, and Jennifer
-    Wortman Vaughan. In <i>Proceedings of the
-    18th ACM Conference on Economics and Computation (EC-17)</i>,
-    Cambridge, MA, USA, 2017. <a href="DCA_full.pdf">Full version.</a>
-    </li>
-    
-    <p>
-    
-    <li>
-   <a href="PM+PP.pdf">Crowdsourced Outcome Determination in Prediction Markets.</a> Rupert Freeman, Sebastien Lahaie, and David M. Pennock. In <i>Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17)</i>, San Francisco, CA, USA, 2017.  <a href="https://arxiv.org/abs/1612.04885">Full version.</a>
-    </li>
-	
-    <p>
-    
-    <li>
-  <a href="phragmen_aaai.pdf">Phragmen's Voting Methods and Justified Representation.</a>  Markus Brill, Rupert Freeman, Svante Janson, and Martin Lackner. In <i>Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17)</i>, San Francisco, CA, USA, 2017.
-    </li>
-    
-    <p>
-    
-    <li>
-   <a href="justifiedSCW.pdf">Justified Representation in Approval-Based Committee Voting.</a> Haris Aziz, Markus Brill, Vincent Conitzer, Edith Elkind, Rupert Freeman, and Toby Walsh. In <i>Social Choice and Welfare</i>. (Supercedes the <a href="jrAAAI15.pdf">AAAI-15 version</a> below.) 
-    </li>
-    
-    </ul>
-	
-    <p>
-    <b>2016</b>
+        I am interested in various topics at the intersection of computer science and economics including computational
+        social choice, fair division, resource allocation, and prediction mechanisms.
     </p>
-    
-    <ul>
-    
-    <li>
-   <a href="multicast.pdf">On the Price of Stability of Undirected Multicast Games.</a> Rupert Freeman, Sam Haney, and Debmalya Panigrahi.  In <i>Proceedings of the Twelfth Conference on Web and Internet Economics (WINE-16)</i>, Montreal, Canada, 2016. <a href="multicast_full.pdf">Full version.</a>
-    </li>
-	
+
     <p>
-	
-    <li>
-   <a href="signalingBSG.pdf">Signaling in Bayesian Stackelberg Games.</a> Haifeng Xu, Rupert Freeman, Vincent Conitzer, Shaddin Dughmi, and Milind Tambe. In <i>Proceedings of the Fifteenth International Joint Conference on Autonomous Agents and Multi Agent Systems (AAMAS-16)</i>, Singapore, 2016. <a href="signalingBSGfull.pdf">Full version.</a>
-    </li>
-	
+        My <a href="cv.pdf">CV</a>.
+    </p>
+
     <p>
-	
-    <li>
-    <a href="fnp.pdf">False-Name-Proof Recommendations in Social Networks.</a> Markus Brill, Vincent Conitzer, Rupert Freeman, and Nisarg Shah. In <i>Proceedings of the Fifteenth International Joint Conference on Autonomous Agents and Multi Agent Systems (AAMAS-16)</i>, Singapore, 2016. <a href="FNP_Social_Network_Full.pdf">Full version.</a>
-    </li>
-	
+        Note: <a href="https://www.cs.toronto.edu/~nisarg/">Nisarg</a> and I gave
+        a tutorial on fair division at EC 2019, AAAI 2020 and AAMAS 2020. The most current version of the slides can be
+        found <a href="Tutorial-Slides.pdf">here</a>.
+    </p>
+
+    <h2>Publications</h2>
+
     <p>
-	
-    <li>
-    <a href="new_soctrade.pdf">Rules for Choosing Societal Tradeoffs.</a> Vincent Conitzer, Rupert Freeman, Markus Brill, and Yuqian Li. In <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16)</i>, Phoenix, AZ, 2016.
-    </li>
-	
-    <p>
-	
-    <li>
-    <a href="choosegame.pdf">Computing Possible and Necessary Equilibrium
-    Actions (and Bipartisan Set Winners).</a> Markus Brill, Rupert Freeman, and Vincent
-    Conitzer. In <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16)</i>, Phoenix, AZ, 2016.
-    </li>
-	
-	
-    </ul>
-    
-    <p>
-    <b>2015</b>
+        <b>2021</b>
     </p>
 
     <ul>
-	
-    <li>
-    <a href="tiebreak.pdf">General Tiebreaking Schemes for Computational
-    Social Choice.</a> Rupert Freeman, Markus Brill, and Vincent
-    Conitzer. In <i>Proceedings of the Fourteenth International Joint Conference on Autonomous Agents and Multi Agent Systems (AAMAS-15)</i>, Istanbul, Turkey, 2015.
-    </li>
-	
-    <p>
-		
-    <li>
-    <a href="crowdsourcing.pdf">Crowdsourcing Societal Tradeoffs.</a> Vincent Conitzer, Markus Brill, and Rupert Freeman. In  <i>Proceedings of the Fourteenth International Joint Conference on Autonomous Agents and Multi Agent Systems (AAMAS-15) Blue Sky Ideas track</i>, Istanbul, Turkey, 2015.
-    </li>
-		
-    <p>
-		
-    <li>
-   <a href="jrAAAI15.pdf">Justified Representation in Approval-Based
-   Committee Voting.</a>  Haris Aziz, Markus Brill, Vincent Conitzer, Edith Elkind, Rupert Freeman, and Toby Walsh. In <i>Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI-15)</i>, Austin, TX, 2015. (Superceded by the <a href="justifiedSCW.pdf">SCW version</a> above.) 
-    </li>
-    
+
+        <li>
+            <a href="Matching-Fair-Division.pdf">Two-Sided Matching Meets Fair Division.</a> Rupert Freeman, Evi Micha,
+            and Nisarg Shah. In <i>Proceedings of the Thirtieth International Joint Conference on Artificial
+                Intelligence (IJCAI-21)</i>, virtual, 2021. <a href="Matching-Fair-Division-Full.pdf">Full version.</a>
+        </li>
+
+        <li>
+            <a href="isipta-2021.pdf">Towards a Theory of Confidence in Market-Based Predictions.</a> Rupert Freeman,
+            David M. Pennock, Daniel M. Reeves, David Rothschild, and Bo Waggoner. In <i>Proceedings of the Twelth
+                International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA-21)</i>, Granada,
+            Spain.
+        </li>
+
+        <li>
+            <a href="budget-aggregation-journal.pdf">Truthful Aggregation of Budget
+                Proposals.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and Jennifer Wortman
+            Vaughan. In <i>Journal of Economic Theory</i>, Vol 193, 2021. (Supercedes the <a
+                href="budget-aggregation-cr.pdf">EC-19 version</a> below.)
+        </li>
+
     </ul>
-	
+
+
     <p>
-	
-	
-<b>2014</b>
-</p>
-    
+        <b>2020</b>
+    </p>
+
     <ul>
-    <li>
-    <a href="runoff.pdf">On the Axiomatic Characterization of
- Runoff Voting Rules.</a> Rupert Freeman, Markus Brill, and Vincent
-    Conitzer. In <i>Proceedings of the Twenty-Eighth AAAI
- Conference on Artificial Intelligence (AAAI-14)</i>, pp. 675-681, Quebec
- City, Canada, 2014.
-    </li>
-	
-</ul>
+
+        <li>
+            <a href="https://arxiv.org/abs/2002.08837">No-Regret and Incentive-Compatible
+                Online Learning</a>. Rupert Freeman, David M. Pennock, Chara Podimata, and Jennifer Wortman
+            Vaughan. In <i>Proceedings of the Thirty-Seventh International
+                Conference on Machine Learning (ICML-20)</i>.
+        </li>
+
+        <li>
+            <a href="EC20-Fair-Div-CR.pdf">Best of Both Worlds: Ex-Ante and Ex-Post Fairness in Resource
+                Allocation.</a> Rupert Freeman, Nisarg Shah, and
+            Rohit Vaish. In <i>Proceedings of the Twenty-First ACM Conference
+                on Economics and Computation
+                (EC-20)</i>. <a href="https://arxiv.org/abs/2005.14122">Full version.</a>
+        </li>
+
+        <li>
+            <a href="vnw-ijcai.pdf">Proportionality in Approval-Based Elections With a
+                Variable Number of Winners.</a> Rupert Freeman, Anson Kahng, and David
+            M. Pennock. In <i>Proceedings of the Twenty-Ninth International
+                Joint Conference on Artificial Intelligence (IJCAI-20)</i>, Yokohama,
+            Japan, 2020. <a href="vnw-full.pdf">Full version.</a>
+        </li>
+
+        <li>
+            <a href="Chores.pdf">Equitable Allocations of Indivisible Chores.</a> Rupert Freeman, Sujoy Sikdar,
+            Rohit Vaish, and Lirong Xia. In <i>Proceedings of the Nineteenth
+                International Joint Conference on Autonomous Agents and Multi Agent
+                Systems (AAMAS-20)</i>, Auckland, New Zealand,
+            2020. <a href="https://arxiv.org/abs/2002.11504">Full version.</a>
+        </li>
+
+        <li>
+            <a href="group-proper-aaai.pdf">Preventing Arbitrage
+                from Collusion when Eliciting Probabilities.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and
+            Bo
+            Waggoner. In <i>Proceedings of the Thirty-Fourth AAAI Conference
+                on Artificial Intelligence (AAAI-20)</i>, New York, NY,
+            2020. <a href="group-proper-working-paper.pdf">Full version.</a>
+        </li>
+
+    </ul>
+
+    <p>
+        <b>2019</b>
+    </p>
+
+    <ul>
+
+        <li>
+            <a href="ownershipFED18.pdf">Algorithmically Driven Shared
+                Ownership Economies.</a>
+            Vincent Conitzer and Rupert
+            Freeman. Appears as a chapter in <i>Future of Economic Design</i>,
+            Springer, 2019.
+        </li>
+
+        <li>
+            <a href="EQ_IJCAI_Camera-ready.pdf">Equitable Allocations of Indivisible
+                Goods.</a> Rupert Freeman, Sujoy Sikdar, Rohit Vaish, and Lirong Xia. In <i>Proceedings of
+                the Twenty-Eighth International Joint Conference on Artificial Intelligence
+                (IJCAI-19)</i>, Macao, China,
+            2019. <a href=https://arxiv.org/abs/1905.10656>Full version.</a>
+        </li>
+
+        <li>
+            <a href="budget-aggregation-cr.pdf">Truthful Aggregation of Budget
+                Proposals.</a> Rupert Freeman, David M. Pennock, Dominik Peters, and Jennifer Wortman
+            Vaughan. In <i>Proceedings of
+                the Twentieth ACM Conference on Economics and Computation (EC-19)</i>,
+            Pheonix, AZ,
+            2019. (Superceded by the <a href="budget-aggregation-journal.pdf">JET version</a> above.)
+            <!--<a href=https://arxiv.org/abs/1905.00457>Full version.</a>-->
+        </li>
+
+
+        <li>
+            <a href="group-fairness-aaai.pdf">Group Fairness for the
+                Allocation of Indivisible Goods.</a> Vincent Conitzer, Rupert Freeman, Nisarg Shah, and Jennifer Wortman
+            Vaughan. In <i>Proceedings of
+                the Thirty-Third AAAI Conference on Artificial Intelligence
+                (AAAI-19)</i>, Honolulu, HI,
+            2019. <a href="group-fairness-full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="wagering-fair-division-aaai.pdf">An Equivalence
+                Between Wagering and Fair-Division Mechanisms.</a> Rupert Freeman, David M. Pennock, and Jennifer
+            Wortman Vaughan. In <i>Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence
+                (AAAI-19)</i>, Honolulu, HI,
+            2019. <a href="wagering-fair-division-full.pdf">Full version.</a>
+        </li>
+
+    </ul>
+
+
+    <p>
+        <b>2018</b>
+    </p>
+
+    <ul>
+
+
+        <li>
+            <a href="pcm-ijcai18.pdf">An
+                Axiomatic View of the Parimutuel Consensus Mechanism.</a> Rupert Freeman and David M. Pennock. In
+            <i>Proceedings of the Twenty-Seventh
+                International Joint Conference on Artificial Intelligence
+                (IJCAI-18)</i>, Stockholm, Sweden, 2018. <a href="pcm-full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="sigmetrics.pdf">Dynamic Proportional Sharing: A Game-Theoretic
+                Approach.</a> Rupert Freeman*, Seyed Majid Zahedi*, Vincent
+            Conitzer, and Benjamin Lee (* Co-first authors). In <i>Proceedings of the ACM SIGMETRICS
+                International Conference on Measurement and Modeling of Computer Systems</i>, Irvine, CA,
+            2018.
+        </li>
+
+        <li>
+            <a href="forecaster-selection.pdf">Incentive-Compatible
+                Forecasting Competitions.</a> Jens Witkowski, Rupert Freeman, Jennifer Wortman Vaughan, David M.
+            Pennock,
+            and Andreas Krause. In <i>Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence
+                (AAAI-18)</i>, New Orleans, LA, 2018.
+
+        </li>
+
+    </ul>
+
+    <p>
+        <b>2017</b>
+    </p>
+
+    <ul>
+
+
+        <li>
+            <a href="fair_social_choice.pdf">Fair and Efficient Social Choice in
+                Dynamic Settings.</a> Rupert Freeman, Seyed Majid Zahedi, and Vincent
+            Conitzer. In <i>Proceedings of the Twenty-Sixth
+                International Joint Conference on Artificial Intelligence
+                (IJCAI-17)</i>, Melbourne, Australia, 2017. <a href="fair_social_choice_full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="fair_public_decisions_EC17.pdf">Fair Public Decision
+                Making.</a> Vincent Conitzer, Rupert Freeman, and Nisarg
+            Shah. In <i>Proceedings of the 18th ACM Conference on
+                Economics and Computation (EC-17)</i>, Cambridge, MA, USA,
+            2017. <a href="fair_public_decisions.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="double-clinching-auction-ec17.pdf">The Double
+                Clinching Auction for Wagering.</a> Rupert Freeman, David M. Pennock, and Jennifer
+            Wortman Vaughan. In <i>Proceedings of the
+                18th ACM Conference on Economics and Computation (EC-17)</i>,
+            Cambridge, MA, USA, 2017. <a href="DCA_full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="PM+PP.pdf">Crowdsourced Outcome Determination in Prediction Markets.</a> Rupert Freeman, Sebastien
+            Lahaie, and David M. Pennock. In <i>Proceedings of the Thirty-First AAAI Conference on Artificial
+                Intelligence (AAAI-17)</i>, San Francisco, CA, USA, 2017. <a
+                href="https://arxiv.org/abs/1612.04885">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="phragmen_aaai.pdf">Phragmen's Voting Methods and Justified Representation.</a> Markus Brill, Rupert
+            Freeman, Svante Janson, and Martin Lackner. In <i>Proceedings of the Thirty-First AAAI Conference on
+                Artificial Intelligence (AAAI-17)</i>, San Francisco, CA, USA, 2017.
+        </li>
+
+
+        <li>
+            <a href="justifiedSCW.pdf">Justified Representation in Approval-Based Committee Voting.</a> Haris Aziz,
+            Markus Brill, Vincent Conitzer, Edith Elkind, Rupert Freeman, and Toby Walsh. In <i>Social Choice and
+                Welfare</i>. (Supercedes the <a href="jrAAAI15.pdf">AAAI-15 version</a> below.)
+        </li>
+
+    </ul>
+
+    <p>
+        <b>2016</b>
+    </p>
+
+    <ul>
+
+        <li>
+            <a href="multicast.pdf">On the Price of Stability of Undirected Multicast Games.</a> Rupert Freeman, Sam
+            Haney, and Debmalya Panigrahi. In <i>Proceedings of the Twelfth Conference on Web and Internet Economics
+                (WINE-16)</i>, Montreal, Canada, 2016. <a href="multicast_full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="signalingBSG.pdf">Signaling in Bayesian Stackelberg Games.</a> Haifeng Xu, Rupert Freeman, Vincent
+            Conitzer, Shaddin Dughmi, and Milind Tambe. In <i>Proceedings of the Fifteenth International Joint
+                Conference on Autonomous Agents and Multi Agent Systems (AAMAS-16)</i>, Singapore, 2016. <a
+                href="signalingBSGfull.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="fnp.pdf">False-Name-Proof Recommendations in Social Networks.</a> Markus Brill, Vincent Conitzer,
+            Rupert Freeman, and Nisarg Shah. In <i>Proceedings of the Fifteenth International Joint Conference on
+                Autonomous Agents and Multi Agent Systems (AAMAS-16)</i>, Singapore, 2016. <a
+                href="FNP_Social_Network_Full.pdf">Full version.</a>
+        </li>
+
+
+        <li>
+            <a href="new_soctrade.pdf">Rules for Choosing Societal Tradeoffs.</a> Vincent Conitzer, Rupert Freeman,
+            Markus Brill, and Yuqian Li. In <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence
+                (AAAI-16)</i>, Phoenix, AZ, 2016.
+        </li>
+
+
+        <li>
+            <a href="choosegame.pdf">Computing Possible and Necessary Equilibrium
+                Actions (and Bipartisan Set Winners).</a> Markus Brill, Rupert Freeman, and Vincent
+            Conitzer. In <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16)</i>,
+            Phoenix, AZ, 2016.
+        </li>
+
+
+    </ul>
+
+    <p>
+        <b>2015</b>
+    </p>
+
+    <ul>
+
+        <li>
+            <a href="tiebreak.pdf">General Tiebreaking Schemes for Computational
+                Social Choice.</a> Rupert Freeman, Markus Brill, and Vincent
+            Conitzer. In <i>Proceedings of the Fourteenth International Joint Conference on Autonomous Agents and Multi
+                Agent Systems (AAMAS-15)</i>, Istanbul, Turkey, 2015.
+        </li>
+
+
+        <li>
+            <a href="crowdsourcing.pdf">Crowdsourcing Societal Tradeoffs.</a> Vincent Conitzer, Markus Brill, and Rupert
+            Freeman. In <i>Proceedings of the Fourteenth International Joint Conference on Autonomous Agents and Multi
+                Agent Systems (AAMAS-15) Blue Sky Ideas track</i>, Istanbul, Turkey, 2015.
+        </li>
+
+
+        <li>
+            <a href="jrAAAI15.pdf">Justified Representation in Approval-Based
+                Committee Voting.</a> Haris Aziz, Markus Brill, Vincent Conitzer, Edith Elkind, Rupert Freeman, and Toby
+            Walsh. In <i>Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI-15)</i>,
+            Austin, TX, 2015. (Superceded by the <a href="justifiedSCW.pdf">SCW version</a> above.)
+        </li>
+
+    </ul>
+
+    <p>
+
+
+        <b>2014</b>
+    </p>
+
+    <ul>
+        <li>
+            <a href="runoff.pdf">On the Axiomatic Characterization of
+                Runoff Voting Rules.</a> Rupert Freeman, Markus Brill, and Vincent
+            Conitzer. In <i>Proceedings of the Twenty-Eighth AAAI
+                Conference on Artificial Intelligence (AAAI-14)</i>, pp. 675-681, Quebec
+            City, Canada, 2014.
+        </li>
+
+    </ul>
 
 </body>
+
 </html>
